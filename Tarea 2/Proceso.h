@@ -1,7 +1,8 @@
+#ifndef PROCESO_H_INCLUDED
+#define PROCESO_H_INCLUDED
 #include<iostream>
-#include"Proceso.h"
 using namespace std;
-/*template <class T>
+template <class T>
 class Pascal{
 public:
     factorial(T);
@@ -30,19 +31,7 @@ Pascal<T>::combinacion(T n, T r)
         else
             return factorial(n) / (factorial(r) * factorial(n - r));
     }
-}*/
-
-int main(){
-    Pascal<int> c1;
-    int z;
-    cout<<"Ingrese el valor: "<<endl;
-    cin>>z;
-     for(int i=z; i>=0; i--)
-    {
-        for(int ii=0; ii<=i; ii++)
-            cout << c1.combinacion(i, ii) << "  ";
-        cout << endl;
-    }
-
-    return 0;
 }
+
+
+#endif // PROCESO_H_INCLUDED
