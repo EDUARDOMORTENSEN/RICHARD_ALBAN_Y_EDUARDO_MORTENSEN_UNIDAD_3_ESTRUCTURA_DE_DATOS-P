@@ -1,4 +1,7 @@
 #include<iostream>
+#include <time.h>
+#include<chrono>
+
 using namespace std;
 template <class T>
 class Pascal{
@@ -16,6 +19,8 @@ Pascal<T>::factorial(T n)
     else
         return n * factorial(n-1);
 }
+
+
 template <class T>
 Pascal<T>::combinacion(T n, T r)
 {
@@ -30,17 +35,43 @@ Pascal<T>::combinacion(T n, T r)
     }
 }
 
-int main(){
-    cout<<"ingrese el numero de filas"<<endl;
+struct Temporizador
+{
+
+    std::chrono::system_clock::time_point inicio;
+
+    Temporizador()
+    {
+        inicio=std::chrono::system_clock::now();
+    }
+    ~Temporizador(){
+    auto finall=std::chrono::system_clock::now();
+
+    std::chrono::duration<float> duracion=finall-inicio;
+    std::cout <<duracion.count()<<"s"<<std::endl;
+    }
+};
+
+int triangulo_de_Pascal(){
+Pascal<int> c1;
     int z;
+    cout<<"Ingrese el valor: "<<endl;
     cin>>z;
-    Pascal<int> c1;
-     for(int i=z; i>=0; i--)
+     for(int i=0; i<=z; i++)
     {
         for(int ii=0; ii<=i; ii++)
             cout << c1.combinacion(i, ii) << "  ";
         cout << endl;
     }
+}
 
-    return 0;
+int programa(){
+Temporizador t;
+triangulo_de_Pascal();
+}
+
+int main(){
+ programa();
+ getchar();
+return 0;
 }
