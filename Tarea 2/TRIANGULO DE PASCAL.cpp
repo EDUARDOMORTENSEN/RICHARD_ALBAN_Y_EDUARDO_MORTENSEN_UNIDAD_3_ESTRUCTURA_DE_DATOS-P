@@ -1,8 +1,8 @@
 /******  Universidad de las Fuerzas Armadas ESPE  *******                            *
  *				Carrera: Software													 *
  *				Autores: Eduardo Mortensen, Richard Alban,							 *
- *				Fecha de creación: 27/10/2021										 *
- *				Fecha de modificación: 4/11/2021									 *
+ *				Fecha de creación: 7/2/2022										 *
+ *				Fecha de modificación: 7/2/2022									 *
  *****************************/
 #include<iostream>
 #include"Proceso.h"
