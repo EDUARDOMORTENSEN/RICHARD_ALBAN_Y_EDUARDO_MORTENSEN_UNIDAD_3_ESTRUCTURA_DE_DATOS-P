@@ -30,7 +30,7 @@ void Application::init()
 void Application::exit_program()
 {
     std::cout << "\x1B[2J\x1B[H";
-    std::cout << "\n\nHasta la proxima\n\n";
+    std::cout << "\n\nSaliendo\n\n";
     Sleep(500);
     exit(0);
 }

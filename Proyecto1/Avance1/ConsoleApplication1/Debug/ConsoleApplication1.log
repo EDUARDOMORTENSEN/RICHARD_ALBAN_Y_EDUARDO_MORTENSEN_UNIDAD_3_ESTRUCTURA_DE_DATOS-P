@@ -1,1 +1,8 @@
-﻿  ConsoleApplication1.vcxproj -> C:\Users\HP\Desktop\ConsoleApplication1\Debug\ConsoleApplication1.exe
+﻿  Application.cpp
+  ConsoleApplication1.cpp
+C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(27,32): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(28,36): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(39,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(44,29): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  Generando código...
+  ConsoleApplication1.vcxproj -> C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\Debug\ConsoleApplication1.exe

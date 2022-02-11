@@ -84,7 +84,7 @@ void Menu::display(size_t option)
         
         SetConsoleTextAttribute(console_, FOREGROUND_RED);
 
-        std::cout << "Chess Game" << std::endl;
+        std::cout << "Ajedres Game" << std::endl;
     }
 
     while (i < menu_option_.size())
