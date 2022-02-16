@@ -9,6 +9,7 @@ class Funciones{
 
 public:
      calcular();
+     ingresar_a_web();
 };
 template <class T>
 Funciones<T>::calcular()
@@ -26,5 +27,14 @@ Funciones<T>::calcular()
 
     }
     file.close();
+
+}
+template <class T>
+Funciones<T>::ingresar_a_web(){
+cout << "Presione enter para abrir Octave Online" << endl;
+ system("pause>null");
+ system("start https://octave-online.net/");
+ cout << "Presione enter para salir" << endl;
+ return 0;
 }
 #endif // LIBRERIA_H_INCLUDED
