@@ -11,6 +11,7 @@ class Funciones2{
 public:
      factorial(T);
      calcular();
+     ingresar_a_web();
 };
 template <class T>
 Funciones2<T>::factorial(T n)
@@ -39,6 +40,14 @@ Funciones2<T>::calcular()
 
     }
     file.close();
+}
+template <class T>
+Funciones2<T>::ingresar_a_web(){
+    cout << "Presione enter para abrir Octave Online" << endl;
+    system("pause>null");
+    system("start https://octave-online.net/");
+    cout << "Presione enter para salir" << endl;
+    return 0;
 }
 
 #endif // FUNCION2_H_INCLUDED

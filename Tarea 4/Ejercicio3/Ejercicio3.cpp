@@ -11,6 +11,7 @@ int main()
     inicio = clock();
     Funcion3<int> obj;
     obj.calcular();
+    obj.ingresar_a_web();
     fin = clock();
     t = fin - inicio;
     tiempoSeg=((float)t);
