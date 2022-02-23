@@ -18,3 +18,4 @@ int main()
     tiempoSeg=((float)t);
     cout << endl<<"El tiempo transcurrido fue: " << tiempoSeg<<endl;
 }
+
