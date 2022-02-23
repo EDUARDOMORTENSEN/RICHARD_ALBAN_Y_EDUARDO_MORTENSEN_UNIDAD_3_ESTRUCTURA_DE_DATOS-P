@@ -4,5 +4,10 @@ C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_
 C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(28,36): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(39,22): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\marquesina.h(44,29): warning C4838: la conversión de 'int' en 'SHORT' requiere una conversión de restricción
+  Menu.cpp
+  MenuOption.cpp
+  Source.cpp
   Generando código...
+C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\ConsoleApplication1\Menu.cpp(136): warning C4715: 'Menu::usarMouse': no todas las rutas de acceso de control devuelven un valor
+  LINK : no se encontró C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\Debug\ConsoleApplication1.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
   ConsoleApplication1.vcxproj -> C:\Users\HP\Desktop\Tercer Semestre\Trabajos Estructuras\Tercer Parcial\RICHARD_ALBAN_Y_EDUARDO_MORTENSEN_UNIDAD_3_ESTRUCTURA_DE_DATOS-P\Proyecto1\Avance1\Debug\ConsoleApplication1.exe
